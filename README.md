@@ -6,7 +6,7 @@
   <img src="https://img.shields.io/badge/Graphics_Programming-008080?style=for-the-badge" alt="Graphics Programming"/>
 </div>
 
-# 👋 Hi, I'm fluffy-den
+# 👋 Hi, I'm Louis-Quentin
 
 ## 💻 Graphics Programmer & Engine Developer
 
@@ -15,6 +15,7 @@ I'm a passionate computer graphics programmer and C/C++ enthusiast, currently bu
 ### 🔥 Current Projects
 
 - **🚀 Vulkan Game Engine** - A modern rendering engine built with Vulkan API
+- **🎨 Hybrid Rendering** - Implementing both raymarching and rasterization techniques
 - **🎮 Physics Integration** - Implementing realistic simulation for interactive environments
 - **🧩 Custom Shader Pipeline** - Developing a flexible material system with PBR workflow
 
