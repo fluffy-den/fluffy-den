@@ -1,40 +1,60 @@
 <div align="center">
-  <img src="https://img.shields.io/badge/C++-00599C?style=for-the-badge&logo=cplusplus&logoColor=white" alt="C++"/>
-  <img src="https://img.shields.io/badge/Vulkan-AC162C?style=for-the-badge&logo=vulkan&logoColor=white" alt="Vulkan"/>
-  <img src="https://img.shields.io/badge/Blender-F5792A?style=for-the-badge&logo=blender&logoColor=white" alt="Blender"/>
-  <img src="https://img.shields.io/badge/OpenGL-5586A4?style=for-the-badge&logo=opengl&logoColor=white" alt="OpenGL"/>
-  <img src="https://img.shields.io/badge/Graphics_Programming-008080?style=for-the-badge" alt="Graphics Programming"/>
+  <h1>👋 Hi, I'm Louis-Quentin</h1>
+  <p>Graphics Programmer & Engine Developer</p>
 </div>
 
-# 👋 Hi, I'm Louis-Quentin
+---
 
-## 💻 Graphics Programmer & Engine Developer
+### 🔥 About Me
+I build a **high-performance C++ game engine from scratch**, focusing on advanced rendering, system architecture, and runtime flexibility.
+Right now, I am studying Unreal Engine and Unity to do my own game engine. My goal is to make this engine small, reliable and from from scratch.
+Everything I do is designed for **efficiency, correctness, and real-time performance**, with a strong focus on modern C++ techniques.
 
-I'm a passionate computer graphics programmer and C/C++ enthusiast, currently building a custom **Vulkan-based game engine** from scratch. I will also make some games. My work focuses on high-performance rendering techniques and efficient engine architecture.
+---
 
-### 🔥 Current Projects
+### ⚙️ My Engine Highlights
+- **Advanced Frame Graph** – Flexible and optimized rendering pipeline, with automatic barrier / semaphore placement
+- **Custom Containers & ECS** – Tailored memory management and type-safe systems using **concepts**  
+- **Lock-Free Job System** – Task priorities, smart work displacement, multithreading  
+- **Hot-Reloading** – Assets, shaders, and scripts reload at runtime; powered by a Python + CMake build system. Allows
+  some C++ code to be hot-reloaded too!
+- **LLVM-Based Tooling** – clang, clang-tidy, clangd, and sanitizers ensure robustness and correctness  
 
-- **🚀 Vulkan Game Engine** - A modern rendering engine built with Vulkan API
-- **🎨 Hybrid Rendering** - Implementing both raymarching and rasterization techniques
-- **🎮 Physics Integration** - Implementing realistic simulation for interactive environments
-- **🧩 Custom Shader Pipeline** - Developing a flexible material system with PBR workflow
+---
+
+### 🎯 Current & Upcoming Projects
+- **Asset Manager & Virtual File System** – Async IO and hot-reloadable resources  
+- **C# Scripting Integration** – Runtime script support for textures, shaders, and game logic  
+- **Render Graph Visualization** – Driving first render outputs to explore my engine’s capabilities  
+- **Star Smiths** - A 4X strategy game built on my engine, featuring fully customizable ships with modules, weapons, engines, and more. Players can take on the role of pilot, captain, commander—or all at once!
+
+---
 
 ### 💡 Technical Skills
 
-(**Proficient**)
+**Languages & Core**  
+![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white) ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)  
 
-![C++](https://img.shields.io/badge/C++-00599C?style=flat-square&logo=cplusplus&logoColor=white) ![C](https://img.shields.io/badge/C-A8B9CC?style=flat-square&logo=c&logoColor=black) ![GLSL](https://img.shields.io/badge/GLSL-5586A4?style=flat-square&logo=opengl&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white)
+**Graphics & Rendering**  
+![Vulkan](https://img.shields.io/badge/Vulkan-AC162C?style=flat-square&logo=vulkan&logoColor=white) ![OpenGL](https://img.shields.io/badge/OpenGL-5586A4?style=flat-square&logo=opengl&logoColor=white) ![Shader](https://img.shields.io/badge/Shader_Programming-1572B6?style=flat-square&logo=webgl&logoColor=white)  
 
-(**Learning**) 
+**Systems & Performance**  
+Lock-Free Multithreading, SIMD, Custom Allocators, ECS, Optimisation, Hot Reloading  
 
-![Rust](https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white)
+**Tools & Pipeline**  
+CMake, Git, RenderDoc, Neovim, LLVM Toolchain  
 
-#### Graphics & Rendering
-![Vulkan](https://img.shields.io/badge/Vulkan-AC162C?style=flat-square&logo=vulkan&logoColor=white) ![OpenGL](https://img.shields.io/badge/OpenGL-5586A4?style=flat-square&logo=opengl&logoColor=white) ![Shader](https://img.shields.io/badge/Shader_Programming-1572B6?style=flat-square&logo=webgl&logoColor=white)
+---
 
-#### Performance & Systems Programming
-![SIMD](https://img.shields.io/badge/SIMD-4285F4?style=flat-square&logo=intel&logoColor=white) ![Multithreading](https://img.shields.io/badge/Multithreading-brightgreen?style=flat-square) ![Systems Programming](https://img.shields.io/badge/Systems_Programming-000000?style=flat-square&logo=linux&logoColor=white) ![ECS](https://img.shields.io/badge/ECS-lightblue?style=flat-square) ![Optimisation](https://img.shields.io/badge/Optimisation-yellow?style=flat-square)
+### 📈 Roadmap
+1. Complete **Asset Manager** + **Virtual File System**  
+2. Integrate **C# scripting system** for hot-reloadable game logic  
+3. First **render graph outputs** and image pipeline demos  
+4. Expand **physics & hybrid rendering** features  
 
-#### Tools & Technologies
-![CMake](https://img.shields.io/badge/CMake-064F8C?style=flat-square&logo=cmake&logoColor=white) ![Git](https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white) ![LazyGit](https://img.shields.io/badge/LazyGit-8957e5?style=flat-square&logo=git&logoColor=white) ![Neovim](https://img.shields.io/badge/Neovim-57A143?style=flat-square&logo=neovim&logoColor=white) ![Blender](https://img.shields.io/badge/Blender-F5792A?style=flat-square&logo=blender&logoColor=white) ![RenderDoc](https://img.shields.io/badge/RenderDoc-blue?style=flat-square)
+---
+
+<div align="center">
+  <p>Always building, always experimenting — aiming for a high-performance, fully-featured game engine.</p>
+</div>
 
